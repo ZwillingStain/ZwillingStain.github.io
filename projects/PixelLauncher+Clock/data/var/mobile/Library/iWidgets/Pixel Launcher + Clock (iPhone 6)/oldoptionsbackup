@@ -1,0 +1,30 @@
+  <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Dark Launcher</string>
+    <key>name</key>
+    <string>pilldarkmode</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Dark Date Text</string>
+    <key>name</key>
+    <string>datedarkmode</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Dark Searchbar</string>
+    <key>name</key>
+    <string>searchbardarkmode</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>

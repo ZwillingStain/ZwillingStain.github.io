@@ -1,0 +1,9 @@
+Package: com.zwillingstain.pixellauncherclock
+Name: Pixel Launcher + Clock
+Version: 2.0
+Architecture: iphoneos-arm
+Author: Skittyblock (original) <MrSkittyblock@catlover.com>, ZwillingStain (modified) <amitzw9@gmail.com>
+Description: Bring Pixel Launcher to iOS! Modified to have clock!
+Homepage: http://modmyi.com/info/pixellauncher.php
+Maintainer: ZwillingStain <amitzw9@gmail.com>
+Section: Themes (SpringBoard)

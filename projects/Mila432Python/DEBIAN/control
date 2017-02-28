@@ -1,0 +1,12 @@
+Package: python
+Priority: optional
+Section: Scripting
+Installed-Size: 50732
+Maintainer: Mila432 <mila432@gmail.com>
+Sponsor: Mila432 <http://mila432.com/>
+Architecture: iphoneos-arm
+Version: 2.7.13-1
+Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
+Description: Description: requirements: libffi from cydia and an arm64 device. __________________________________ what to do after installing:_______________________________________   ldid -S /usr/bin/python_________________________________  for ios10+: _______________________________________   ldid -S /usr/lib/libpython2.7.dylib _______________________________ ldid -S /usr/lib/libssl.1.0.0.dylib _____________________________   ldid -S /usr/lib/libcrypto.1.0.0.dylib
+Name: Python
+Tag: purpose::console

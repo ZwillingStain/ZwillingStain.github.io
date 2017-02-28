@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto.ttf);
+}
+a, input, label, div, img, html, body {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-family: Roboto;
+}
+.pill {
+  left: 5;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 4;
+  background-color: #fff;
+  color: #000;
+  height: 46px;
+  width: 64px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  -webkit-user-select: none;
+  user-select: none;
+}
+.pill img {
+  height: 22px;
+  width: 22px;
+  margin-left: 21px;
+  margin-top: 12px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+.barthingy {
+  height: 46px;
+  width: 40px;
+  left: 0;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 3;
+  background-color: #eee;
+  color: #000;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#time {
+  font-size: 28px;
+  text-align: right;
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#month {
+  font-size: 18px;
+  text-align: right;
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#year {
+  font-size: 10px;
+  text-align: right;
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  -webkit-user-select: none;
+  user-select: none;
+}
+input {
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  background-position: 7px center;
+  border: 0px;
+  border-radius: 2px;
+  text-indent: 40px;
+  height: 40px;
+  width: 395px;
+  font-size: 14px;
+  color: #212121;
+  margin: auto;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+}
+#voice img {
+  width: 27px;
+  height: 27px;
+  border: none;
+  position: absolute;
+  margin-top: 9px;
+  margin-left: -35px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#searchbar {
+  position: absolute;
+  display: none;
+  z-index: 20;
+}

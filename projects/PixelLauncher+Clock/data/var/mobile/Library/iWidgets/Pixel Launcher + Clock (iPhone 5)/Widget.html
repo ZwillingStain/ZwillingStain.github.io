@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <title>Pixel Launcher 5</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body onload="loadOptions();hideBar();">
+    
+    <div id="styles"></div>
+    
+    <div class="launcher">
+      <div class="pill" onclick="showBar();"><img src="img/logo.png" /></div>
+      <div class="barthingy"></div>
+    </div>
+    
+<div id="time"></div>
+
+<script src="js/clock.js"></script>
+
+
+<script>
+clock({
+  twentyfour : true,
+  padzero : false,
+  refresh : 5000,
+  success: function(clock){
+    document.getElementById('time').innerHTML = clock.hour() + ':' + clock.minute();                                   
+  }
+});
+</script>
+
+    <div id="date" onclick="location.reload();">
+      <div id="month">Display Error</div>
+      <div id="year">Please contact @Skittyblock</div>
+    </div>
+    
+    <div id="searchbar">
+      <input id="search" type="text" onkeydown="keyTap(event);" placeholder="Search" autocorrect="off" onblur="hideBar();">
+       <a id="safari" target="_blank" ontouchend="openSafari();">
+         <label id="label" onclick="return false;"></label>
+       </a>
+       <a id="voice" href="googleapp://voice-search" target="_blank">
+         <img width="22px" src="img/voice.png">
+       </a>
+     </div>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/Options.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+     
+     <script type="text/cycript">
+       var widgetIndentifier = "com.skitty.pixellauncher";
+       if(showweather === true) {
+         upWeather();
+         onlyYear();
+         setInterval("onlyYear();", 200000);
+         setInterval("upWeather();", 2000000);
+         [IS2Weather setWeatherUpdateTimeInterval:30 forRequester:widgetIdentifier];
+       }
+       function upWeather() {
+         var weatherNow = [IS2Weather currentTemperature] + "℉";
+         $('#month').html(weatherNow);
+       }
+       window.onunload = function(){
+        [IS2Weather removeRequesterForWeatherTimeInterval:widgetIdentifier];
+       }
+     </script>
+
+  </body>
+</html>

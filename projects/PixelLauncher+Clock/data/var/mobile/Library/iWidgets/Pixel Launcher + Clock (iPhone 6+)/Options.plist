@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+ <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Dark Mode</string>
+    <key>name</key>
+    <string>alldark</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>
+ <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Only Pill</string>
+    <key>name</key>
+    <string>hideboth</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>
+ <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Hide Clock</string>
+    <key>name</key>
+    <string>hidetime</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Hide Date</string>
+    <key>name</key>
+    <string>hidedate</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Use Weather</string>
+    <key>name</key>
+    <string>showweather</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string>false</string>
+    <key>label</key>
+    <string>Floating Pill</string>
+    <key>name</key>
+    <string>pillfloat</string>
+    <key>type</key>
+    <string>switch</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string></string>
+    <key>label</key>
+    <string>Pill Color</string>
+    <key>name</key>
+    <string>pillcolor</string>
+    <key>type</key>
+    <string>edit</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string></string>
+    <key>label</key>
+    <string>Pill Bar Color</string>
+    <key>name</key>
+    <string>pillbarcolor</string>
+    <key>type</key>
+    <string>edit</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string></string>
+    <key>label</key>
+    <string>Searchbar Color</string>
+    <key>name</key>
+    <string>searchbarcolor</string>
+    <key>type</key>
+    <string>edit</string>
+  </dict>
+  <dict>
+    <key>default</key>
+    <string></string>
+    <key>label</key>
+    <string>Text Color</string>
+    <key>name</key>
+    <string>textcolor</string>
+    <key>type</key>
+    <string>edit</string>
+  </dict>
+</array>
+</plist>
