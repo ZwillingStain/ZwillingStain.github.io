@@ -1,0 +1,15 @@
+Package: Pixel Launcher + Clock
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Amit Zwilling <amitzw9@gmail.com>
+Depends: iWidgets
+Filename: com.zwillingstain.pixellauncherclock_2.0_iphoneos-arm.deb
+Size: 914572
+MD5sum: 8B83E98CFD79831208880EA8D059330F
+SHA1: 9ADC48BF26DCDEA12209FD078B14DDA3E12E8A66
+SHA256: A460CE26BAA6BDBC2EE094493660C5A0E66F87D02857BC6188CCE633C1D2F518
+Section: Themes
+Description: Brings Pixel Launcher into iOS! Modified to have a clock!
+Author: Amit Zwilling <amitzw9@gmail.com>
+Depiction:
+Name: Pixel Launcher + Clcok
